@@ -1,0 +1,44 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+}
+
+#myContainer {
+z-index: -2;
+ position: absolute;
+
+}
+
+#yippee {
+  z-index: 1; 
+  position: absolute;
+  font-size: 25px;
+  color: rgb(1, 250, 26);
+}
+
+#div2{
+  z-index: 5;
+  position: absolute;
+  margin-left: 50%;
+  font-size: 20px;
+  /* margin: 50px; */
+  padding: 5px;
+  background-color: bisque;
+}
+
+#imaginarySoundTime{
+  z-index: 7;
+  position:absolute;
+  /* margin-left: 50%; */
+  margin: 120px;
+  font-size: 35px;
+  color: deeppink;
+  font-family:"Rubik Beastly rev=1";
+  padding: 20px;
+  background-color: burlywood;
+}
